@@ -11,75 +11,101 @@
   <img src="images/rajat.jpg" width="256"/>
 </p>
 
-### About me!
-Hi! I'm Rajat, a Data Scientist with 6 years of experience, based in Delhi.
-I have a background in Industrial and Systems engineering from IIT Kharagpur. I have extensive experience in solving problems through Data Science in organizations from a range of industries, including retail, media, and consulting. My key interests lie in Natural Language Processing and Recommendation Systems. My approach centers on developing streamlined, high-impact solutions. Throughout my career, I've driven success through taking initiative, diligence, and an unwavering commitment to continuous improvement.
-I have 3 ginger cats, and I enjoy hiking in the Himalayas in my spare time.
+## About Me
 
-Currently I am working as a Lead Data Scientist at Decision Culture for The Home Depot.
+Hi! I'm Rajat, a Data Scientist with 8 years of experience, based in Delhi. I have a background in Industrial and Systems Engineering from IIT Kharagpur. I have extensive experience solving problems through Data Science in organizations across a range of industries, including retail, media, and consulting. My key interests lie in Natural Language Processing and Recommendation Systems. My approach centers on developing streamlined, high-impact solutions. Throughout my career, I've driven success through taking initiative, diligence, and an unwavering commitment to continuous improvement.
 
-***
-### Educational Background
-**IIT Kharagpur** - **Industrial and Systems Engineering** - **Dual Degree** (B.Tech & M.Tech) | **Class of 2018**
+Currently, I am working as a Lead Data Scientist at Decision Culture for The Home Depot.
 
-***
-### Work Experience
-#### Lead Data Scientist at The Home Depot (on Payroll of Decision Culture)
-* *Next Best Action*: Developed a configurable Python package for Next Best Action Sequence Models, offering flexible integration of diverse Keras layers (LSTM, 1D CNN, Attention) via a centralized model collection file. This empowered data science teams to rapidly train and deploy performant recommenders, significantly enhancing marking outcomes at The Home Depot.
-* *Causal Inference Framework for Customer Insights*: Devised a reusable causal inference framework, enabling cross-functional teams to quantify the impact of adverse events on customer behavior, including:
-  * Email Opt-out Revenue Impact Analysis: Quantified potential revenue loss per customer due to email opt-outs, informing targeted retention strategies.
-  * Validated Framework Efficacy: Successfully validated the framework's results against a Mobile App team's A/B test, achieving >99% alignment in measured lift, and demonstrating the framework's reliability for future use cases.
-* *Lookalike-Modeling*: Framework for semi-supervised learning on Retail Data. Helped create customer persona based on spend history, demographics, browsing patterns for effective targeting
-* *Propensity Models Improvement*: Studied exising propensity models, and devised new features to improve performance of Class Propensity Models upto 15% 
+---
 
-#### Senior Data Scientist at Times Internet - Economic Times
-* *Economic Times Newsletter*: Created news recommendation pipeline for 1.5 million users to increase click-through rate from 4.8% to 15.3% using Apache Airflow for scheduling, monitoring, and logging
-* *News Summarisation using LLM*: Google’s Pegasus-Large Model finetined for ET markets data summarization. Built Flask API as an endpoint which is currently in production
+## Education
 
-* *Summarization for Indic Languages*: Tested summarization models for Bengali, Tamil, Telugu, Malyalam, Marathi and Gujarati News
+**Indian Institute of Technology Kharagpur** | West Bengal, India  
+*Dual Degree (B.Tech and M.Tech) in Industrial Engineering Department*  
+**April 2013 - March 2018**
 
-* *Keyword Recommendation for Articles (BERT + Solr)*: Designed a system for recommending Keywords
-for articles using Solr. Indexed Wikipedia data in solr search engine. Used BM25 for coarse search and BERT
-embeddings for ranking. Tested for 10 searches per second over 6M articles
-* *Hack and Hustle 3.0 Hackathon Finalist 2022*: Lead a team of 3 senior developers to build a Twitter Social
-listening API to provide Sentiment, Subjectivity and Engagement Insights on user specified Stocks
+---
 
-#### Data Scientist at ZS
-* *Rare Disease Identification using EHR*: Devised Positive Unlabelled Classifier for Rare Disease
-Identification from Electronic Health Data, leading to lead time reduction from weeks to 10 work hours
-* *Compliance Prediction and Monitoring*: Resource level Non-Compliance prediction for fortune 100, leading to 23% reduction in non-compliance and $ 150K savings over 6 months
-* *Asymptomatic Liver Disease Progression Modeling*: Predicted high risk NASH patients with 86% AUROC
-in EHR, identified 4 additional non invasive markers for fast-progressing NASH. Model was used for identifying
-patients for their focused treatment and higher enrollment in clinical trials
-* *Text Mining and Classification*: Extracted unstructured clinical trial data for given therapy area in order to
-analyze current research scenario and trends
+## Work Experience
 
-#### ZS - Data Science Intern
-Data Science Intern Jan. 2017 - June. 2017
-* *Text Multi Class Sentiment Analysis*: NLP pipeline for unstructured social listening data using bidirectional
-LSTM, TF-IDF Random Forest and Word2Vec Averaging MaxEnt. 72% Accuracy and 0.45 Cohen’s Kappa Score
-* *Smart Scheduling Tool for Recruiters*: Created a tool in Excel VBA for Recruiters to plan and monitor daily
-interviews with flexibility of sending automated mailers
+### Lead Data Scientist | The Home Depot (on payroll of Decision Culture)
+**February 2022 - Present** | Remote, India
 
-***
-### Programming languages
-Python, Pandas, Numpy, sklearn, Pytorch, Tensorflow, Keras, Transformers, SQL, VBA
+* **Next Best Action:** Built a Python package for Next Best Action Sequence Models, enabling data science teams to train LSTM and Transformer recommendation models, enhancing customer experiences across The Home Depot
 
-***
+* **Causal Inference Framework for Customer Insights:** Devised a reusable causal inference framework, enabling cross-functional teams to quantify the impact of adverse events on customer behavior, including:
+  * **Email Opt-Out Revenue Impact Analysis:** Quantified potential revenue loss per customer due to email opt-outs, informing targeted retention strategies
+  * **Validated Framework Efficacy:** Successfully validated the framework's results against a Mobile App Team's A/B test, achieving >99% alignment in measured lift, demonstrating the framework's reliability for future use cases
 
-### Projects/Blogs
-* Vibe Coded Screen Scape, a client-side web tool using React, Vite, and Tailwind CSS with daisyUI, enabling users to visualize and compare computer monitor sizes interactively in real-world scale. [link](https://throw-away-qq.github.io/ScreenScape/)
-* Sequential Recommender in Production [Recbole] [https://throw-away-qq.github.io/recbole_to_production/]
-* Motion Following camera using Arduino Uno and IR sensors
-* Smart Scheduling Tools for Recruiters in VBA
+* **Lookalike Model for Customer Identification:** Developed an ML pipeline for a Lookalike Model to identify high-quality potential customers, achieving an incremental lift of 3.7% over the existing model using FAISS
 
-<!-- ![rajat](images/rajat.jpg) -->
-<!-- 
-TO DO:
-Add links to companies
-Do more projects and showcase them here
-Do some experimentation and test them out here for example on Tabular Dataset -->
+* **HouseFacts - House Level Features:** Led the HouseFacts project as Senior Data Scientist, overseeing code quality and integration from junior developers to maintain high standards for the project repository
 
+* **Python Package for Auto Feature Generation:** Developed a Python package for automated feature generation, streamlining data cleaning and integration across diverse datasets (sales history, browsing behavior, demographics, etc.), enhancing feature selection flexibility while ensuring consistency and preventing redundancy
+
+### Data Scientist | Times Internet
+**December 2020 - February 2022** | Delhi, India
+
+* **Economic Times Newsletter:** Implemented news recommendation pipeline for 1.5M users for ET, leading to 15.3% CTR improvement from 4.8%. Set up Apache Airflow for scheduling, monitoring, and logging
+
+* **News Summarization API:** Fine-tuned Google's Pegasus Large Language Model for ET markets data summarization. Built Flask API as an endpoint currently in production
+
+* **Keyword Recommendation for Articles (BERT + Solr):** Designed a system for recommending keywords for articles using Solr. Indexed Wikipedia data in Solr search engine. Used BM25 for coarse search and BERT embedding for ranking. Tested to handle 10 searches per second across 6M articles
+
+* **Hack and Hustle 3.0 Hackathon Finalist 2022:** Led a team of 3 senior developers to build a Twitter social listening API to provide sentiment, subjectivity, and engagement insights on user-specified stocks
+
+### Data Science Associate | ZS
+**July 2018 - December 2020** | Pune, India
+
+* **Rare Disease Identification using EHR:** Devised PU-Classifier using GANs. Automated Rare Disease Identification pipeline from Electronic Health Records, leading to lead time reduction from weeks to 10 work hours
+
+* **Compliance Prediction and Monitoring:** Resource-level non-compliance prediction for Fortune 100 Hi-Tech client, leading to 23% reduction in non-compliance and $150K savings over 6 months
+
+* **Asymptomatic Liver Disease Progression Modeling:** Predicted high-risk NASH patients with 86% AUROC in EHR, identified 4 additional non-invasive markers for fast-progressing NASH. Model was used for identifying patients for focused treatment and higher enrollment in clinical trials
+
+* **Text Mining and Classification:** Extracted unstructured clinical trial data for given therapy area to analyze current research scenarios and trends
+
+### Data Science Intern | ZS
+**January 2017 - June 2017** | Pune, India
+
+* **Text Multi-Class Sentiment Analysis:** Built NLP pipeline for unstructured social listening data using bidirectional LSTM, TF-IDF Random Forest, and Word2Vec Averaging MaxEnt. Achieved 72% accuracy and 0.45 Cohen's Kappa Score
+
+* **Smart Scheduling Tool for Recruiters:** Created a tool in Excel VBA for recruiters to plan and monitor daily interviews with flexibility of sending automated mailers
+
+### Summer Research Intern | TVS Motors
+**April 2016 - May 2016** | Hosur, Tamil Nadu, India
+
+* **Ignition System Benchmarking for Quality Control:** Designed a noise filtering and timing circuit for TCI benchmarking. Device was used to measure ignition timings and tuning for better efficiency and torque-RPM curve
+
+* **Fuel Gauge Design using Stepper Motor:** Designed a prototype for fuel gauge that outperformed traditional Moving Coil meter in response time and precision. Build was verified and approved for production
+
+---
+
+## Academic Projects
+
+### Recommendation Systems | Advisor: Prof. Jyoti Mukherjee
+**Local Community Detection in Amazon Co-purchase Networks** | February 2018
+
+Designed a recommendation system based on user product purchase data. Incorporated data transformation and information retrieval techniques to recommend next purchase for users.
+
+---
+
+## Programming Skills
+
+**Languages and Frameworks:** PyTorch, Keras, TensorFlow, Python, Apache Airflow, SQL, R, VBA
+
+---
+
+## Projects/Blogs
+
+* **Screen Scape:** Client-side web tool using React, Vite, and Tailwind CSS with daisyUI, enabling users to visualize and compare computer monitor sizes interactively in real-world scale. [View Project](https://throw-away-qq.github.io/ScreenScape/)
+
+* **Sequential Recommender in Production [RecBole]:** Comprehensive guide on implementing RecBole's Sequential Models as production-ready APIs. [Read Blog](https://throw-away-qq.github.io/recbole_to_production/)
+
+* **Motion Following Camera:** Built using Arduino Uno and IR sensors for autonomous subject tracking
+
+* **Smart Scheduling Tools for Recruiters:** Developed in VBA for efficient interview management
 
 <!-- Alternatively, for H1 and H2, an underline-ish style:
 
