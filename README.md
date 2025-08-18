@@ -13,7 +13,7 @@
 
 ## About Me
 
-Hi! I'm Rajat, a Data Scientist with 8 years of experience, based in Delhi. I have a background in Industrial and Systems Engineering from IIT Kharagpur. I have extensive experience solving problems through Data Science in organizations across a range of industries, including retail, media, and consulting. My key interests lie in Natural Language Processing and Recommendation Systems. My approach centers on developing streamlined, high-impact solutions. Throughout my career, I've driven success through taking initiative, diligence, and an unwavering commitment to continuous improvement.
+Hi! I'm Rajat, a Data Scientist with 8 years of experience, based in Bangalore. I have a background in Industrial and Systems Engineering from IIT Kharagpur. I have extensive experience solving problems through Data Science in organizations across a range of industries, including retail, media, and consulting. My key interests lie in Natural Language Processing and Recommendation Systems. My approach centers on developing streamlined, high-impact solutions. Throughout my career, I've driven success through taking initiative, diligence, and an unwavering commitment to continuous improvement.
 
 Currently, I am working as a Lead Data Scientist at Decision Culture for The Home Depot.
 
