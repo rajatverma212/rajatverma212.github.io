@@ -1,35 +1,46 @@
-<!-- # H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6 -->
-
 # Rajat Verma
 
 <p align="left">
   <img src="images/rajat.jpg" width="256"/>
 </p>
 
+**Lead Data Scientist** · Recommendation Systems & NLP
+
+---
+
 ## About Me
 
-Hi! I'm Rajat, a Data Scientist with 8 years of experience, based in Bangalore. I have a background in Industrial and Systems Engineering from IIT Kharagpur. I have extensive experience solving problems through Data Science in organizations across a range of industries, including retail, media, and consulting. My key interests lie in Natural Language Processing and Recommendation Systems. My approach centers on developing streamlined, high-impact solutions. Throughout my career, I've driven success through taking initiative, diligence, and an unwavering commitment to continuous improvement.
+Hi! I'm Rajat, a Lead Data Scientist with 8 years of experience building recommendation systems and NLP products in production.
 
-Currently, I am working as a Lead Data Scientist at Decision Culture for The Home Depot.
+At The Home Depot, I lead a team building Next-Best-Action sequence models (LSTM / Transformer) and a reusable causal-inference framework — Models that drive real decisions at retail scale. Earlier at Times Internet, my news-recommendation pipeline lifted newsletter click-through from **4.8% to 15.3% for 1.5M users**.
+
+I'm IIT Kharagpur-trained (Dual Degree in Industrial Engineering) and I care about models that ship: simple, measurable, high-impact. Outside work I hike the Himalayas and keep three ginger cats.
+
+**[Download Resume (PDF)](resume.pdf)**
+
+---
+
+## Contact
+
+- **Email:** [rajatverma212@gmail.com](mailto:rajatverma212@gmail.com)
+- **LinkedIn:** [linkedin.com/in/rajat-verma-iitkgp](https://www.linkedin.com/in/rajat-verma-iitkgp/)
+* **GitHub:** [github.com/rajatverma212](https://github.com/rajatverma212)
 
 ---
 
 ## Education
 
 **Indian Institute of Technology Kharagpur** | West Bengal, India  
-*Dual Degree (B.Tech and M.Tech) in Industrial Engineering Department*  
+*Dual Degree (B.Tech and M.Tech) in Industrial Engineering*  
 **April 2013 - March 2018**
+
+Dual-degree program: 5 years / 10 semesters, with a full internship semester (8th sem) built into the curriculum. Final year (2017-18) was advanced coursework + M.Tech thesis work — which is why my professional internships run alongside, not after, the degree.
 
 ---
 
 ## Work Experience
 
-### Lead Data Scientist | The Home Depot (on payroll of Decision Culture)
+### Lead Data Scientist | The Home Depot *(via Decision Culture)*
 **February 2022 - Present** | Remote, India
 
 * **Next Best Action:** Built a Python package for Next Best Action Sequence Models, enabling data science teams to train LSTM and Transformer recommendation models, enhancing customer experiences across The Home Depot
@@ -44,7 +55,7 @@ Currently, I am working as a Lead Data Scientist at Decision Culture for The Hom
 
 * **Python Package for Auto Feature Generation:** Developed a Python package for automated feature generation, streamlining data cleaning and integration across diverse datasets (sales history, browsing behavior, demographics, etc.), enhancing feature selection flexibility while ensuring consistency and preventing redundancy
 
-### Data Scientist | Times Internet
+### Data Scientist | Times Internet — Economic Times
 **December 2020 - February 2022** | Delhi, India
 
 * **Economic Times Newsletter:** Implemented news recommendation pipeline for 1.5M users for ET, leading to 15.3% CTR improvement from 4.8%. Set up Apache Airflow for scheduling, monitoring, and logging
@@ -68,6 +79,7 @@ Currently, I am working as a Lead Data Scientist at Decision Culture for The Hom
 
 ### Data Science Intern | ZS
 **January 2017 - June 2017** | Pune, India
+*(8th-semester internship as part of the Dual Degree)*
 
 * **Text Multi-Class Sentiment Analysis:** Built NLP pipeline for unstructured social listening data using bidirectional LSTM, TF-IDF Random Forest, and Word2Vec Averaging MaxEnt. Achieved 72% accuracy and 0.45 Cohen's Kappa Score
 
@@ -82,149 +94,23 @@ Currently, I am working as a Lead Data Scientist at Decision Culture for The Hom
 
 ---
 
-## Academic Projects
+## Skills
 
-### Recommendation Systems | Advisor: Prof. Jyoti Mukherjee
-**Local Community Detection in Amazon Co-purchase Networks** | February 2018
-
-Designed a recommendation system based on user product purchase data. Incorporated data transformation and information retrieval techniques to recommend next purchase for users.
-
----
-
-## Programming Skills
-
-**Languages and Frameworks:** PyTorch, Keras, TensorFlow, Python, Apache Airflow, SQL, R, VBA
+* **Languages:** Python, SQL, R, VBA
+* **ML / Deep Learning:** PyTorch, TensorFlow, Keras, scikit-learn, Transformers
+* **Recommendation Systems:** LSTM / Transformer sequence models, FAISS, next-best-action & lookalike modeling
+* **NLP:** Summarization (Pegasus), text classification, sentiment analysis, BERT-based keyword ranking (Solr + BM25 + embeddings)
+* **Engineering / MLOps:** Apache Airflow, Flask APIs, Git
 
 ---
 
-## Projects/Blogs
+## Projects / Blogs
 
-* **Screen Scape:** Client-side web tool using React, Vite, and Tailwind CSS with daisyUI, enabling users to visualize and compare computer monitor sizes interactively in real-world scale. [View Project](https://throw-away-qq.github.io/ScreenScape/)
+* **Screen Scape:** Client-side web tool using React, Vite, and Tailwind CSS with daisyUI, enabling users to visualize and compare computer monitor sizes interactively in real-world scale. [View Project](https://rajatverma212.github.io/ScreenScape/)
 
-* **Sequential Recommender in Production [RecBole]:** Comprehensive guide on implementing RecBole's Sequential Models as production-ready APIs. [Read Blog](https://throw-away-qq.github.io/recbole_to_production/)
+* **Sequential Recommender in Production [RecBole]:** Comprehensive guide on implementing RecBole's Sequential Models as production-ready APIs. [Read Blog](https://rajatverma212.github.io/recbole_to_production/)
 
-* **Motion Following Camera:** Built using Arduino Uno and IR sensors for autonomous subject tracking
-
-* **Smart Scheduling Tools for Recruiters:** Developed in VBA for efficient interview management
-
-<!-- Alternatively, for H1 and H2, an underline-ish style:
-
-Alt-H1
-======
-
-Alt-H2
------- -->
-<!-- 
-Emphasis, aka italics, with *asterisks* or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-1. First ordered list item
-2. Another item
-  * Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-  1. Ordered sub-list
-4. And another item.  
-   
-   Some text that should be aligned with the above item.
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself]
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-
-Here's our logo (hover to see the title text):
-
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Inline `code` has `back-ticks around` it.
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
- 
-```python
-s = "Python syntax highlighting"
-print s
-```
- 
-```
-No language indicated, so no syntax highlighting. 
-But let's throw in a <b>tag</b>.
-```
-
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
-Three or more...
-
----
-
-Hyphens
-
-***
-
-Asterisks
-
-___
-
-Underscores
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-
-This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
- -->
+<!--
+TODO:
+- Add resume.pdf to the repo root (the "Download Resume" link points to /resume.pdf).
+-->
